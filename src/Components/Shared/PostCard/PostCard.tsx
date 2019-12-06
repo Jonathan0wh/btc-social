@@ -13,7 +13,7 @@ import {
 import styles from './PostCard.module.scss';
 
 interface PostCardProps {
-  id: number;
+  id?: number;
   title: string;
   body: string;
   userId: number;
@@ -37,7 +37,7 @@ const PostCard = ({
         {showCommentButton && (
           <Button>
             <Link to={`post/${id}`} className={styles.link}>
-              Comment
+              View Comments
             </Link>
           </Button>
         )}

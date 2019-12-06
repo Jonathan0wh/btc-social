@@ -1,21 +1,13 @@
-import { Action } from 'redux';
-import { ThunkAction } from 'redux-thunk';
+import { PostState } from './types';
 
-import { PostState, Post } from './types';
-
-export type PostThunk<ReturnType = void> = ThunkAction<
-  ReturnType,
-  PostState,
-  null,
-  Action<string>
->;
-
+/**
+ * Action types
+ */
 export const FETCH_POSTS = 'POSTS/FETCH';
 
 interface GetPostsAction {
   type: typeof FETCH_POSTS;
-  status: number;
-  data: Array<Post>;
+  data: PostState;
 }
 
 export type PostActionTypes = GetPostsAction;

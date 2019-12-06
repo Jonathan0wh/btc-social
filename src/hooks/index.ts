@@ -1,0 +1,1 @@
+export { useGetAPIResource } from './useGetAPIResource';

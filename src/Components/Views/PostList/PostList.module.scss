@@ -1,4 +1,9 @@
 .post_list_container {
+  height: 100%;
+}
+
+.post_list_container,
+.col {
   margin-top: 10px;
   margin-bottom: 10px;
 }

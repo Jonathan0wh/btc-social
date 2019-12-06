@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCreate /> should render by default 1`] = `
+<Container
+  className="container"
+  tag="div"
+>
+  <Row
+    tag="div"
+  >
+    <Col
+      tag="div"
+      widths={
+        Array [
+          "xs",
+          "sm",
+          "md",
+          "lg",
+          "xl",
+        ]
+      }
+    >
+      <h3>
+        Create a Post
+      </h3>
+      <Form
+        tag="form"
+      >
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            for="post_title"
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Title
+          </Label>
+          <Input
+            id="post_title"
+            onChange={[Function]}
+            type="text"
+          />
+        </FormGroup>
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            for="post_body"
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            Content
+          </Label>
+          <Input
+            className="textarea"
+            id="post_body"
+            onChange={[Function]}
+            type="textarea"
+          />
+        </FormGroup>
+        <FormGroup
+          tag="div"
+        >
+          <Label
+            for="post_userid"
+            tag="label"
+            widths={
+              Array [
+                "xs",
+                "sm",
+                "md",
+                "lg",
+                "xl",
+              ]
+            }
+          >
+            My user ID
+          </Label>
+          <Input
+            id="post_userid"
+            onChange={[Function]}
+            type="number"
+          />
+        </FormGroup>
+        <Button
+          color="secondary"
+          onClick={[Function]}
+          tag="button"
+        >
+          Post
+        </Button>
+      </Form>
+    </Col>
+  </Row>
+</Container>
+`;

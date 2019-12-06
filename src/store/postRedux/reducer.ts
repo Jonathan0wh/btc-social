@@ -8,13 +8,8 @@ export function postReducer(
   action: PostActionTypes
 ): PostState {
   switch (action.type) {
-    case FETCH_POSTS: {
-      if (action.status === 200) {
-        return action.data;
-      } else {
-        return state;
-      }
-    }
+    case FETCH_POSTS:
+      return action.data;
 
     default:
       return state;

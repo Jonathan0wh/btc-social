@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PostCard /> should render with comment button 1`] = `
+<Card
+  tag="div"
+>
+  <CardHeader
+    tag="div"
+  >
+    <CardTitle
+      className="title"
+      tag="div"
+    >
+      test
+    </CardTitle>
+  </CardHeader>
+  <CardBody
+    tag="div"
+  >
+    <CardText
+      tag="p"
+    />
+    <Button
+      color="secondary"
+      tag="button"
+    >
+      <Link
+        className="link"
+        to="post/undefined"
+      >
+        View Comments
+      </Link>
+    </Button>
+  </CardBody>
+  <CardFooter
+    tag="div"
+  >
+    Posted by 
+    0
+  </CardFooter>
+</Card>
+`;
+
+exports[`<PostCard /> should render without comment button 1`] = `
+<Card
+  tag="div"
+>
+  <CardHeader
+    tag="div"
+  >
+    <CardTitle
+      className="title"
+      tag="div"
+    >
+      test
+    </CardTitle>
+  </CardHeader>
+  <CardBody
+    tag="div"
+  >
+    <CardText
+      tag="p"
+    />
+  </CardBody>
+  <CardFooter
+    tag="div"
+  >
+    Posted by 
+    0
+  </CardFooter>
+</Card>
+`;

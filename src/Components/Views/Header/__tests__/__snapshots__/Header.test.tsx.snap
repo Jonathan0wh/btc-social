@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render without crashing 1`] = `
+<Navbar
+  color="dark"
+  dark={true}
+  expand="md"
+  tag="nav"
+>
+  <Container
+    tag="div"
+  >
+    <NavbarBrand
+      href="/"
+      tag="a"
+    >
+      BTC Social
+    </NavbarBrand>
+    <Nav
+      tag="ul"
+      vertical={false}
+    >
+      <NavItem
+        tag="li"
+      >
+        <Link
+          className="navlink"
+          to="/"
+        >
+          All Posts
+        </Link>
+      </NavItem>
+      <NavItem
+        tag="li"
+      >
+        <Link
+          className="navlink"
+          to="/post/create"
+        >
+          Create a Post
+        </Link>
+      </NavItem>
+    </Nav>
+  </Container>
+</Navbar>
+`;
